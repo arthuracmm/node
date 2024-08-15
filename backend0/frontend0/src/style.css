@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input{
+    width: 150px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#picture__input{
+    display: none;
+}
+
+#picture{
+    display: flex;
+    overflow: hidden;
+    background: #ddd;
+    aspect-ratio: 16/9;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    color: #a09f9f;
+    border: 0.5px dashed currentColor;
+    transition: 200ms ease-in-out;
+}
+
+#picture:hover{
+    transition: 200ms ease-in-out;
+    color: #000000
+}

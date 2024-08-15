@@ -3,13 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>cuzim de padre</title>
-        <script src="src/input.js" defer></script>  
+        <title>Software Loja</title>
+        <script src="src/input.js" defer></script>
+        <link rel="stylesheet" href="src/style.css">
     </head>
     <body>
         <input type="text" name="name" id="name" placeholder="Nome Do Produto">
         <input type="desc" name="desc" id="desc" placeholder="Descrição">
         <input type="number" name="valor" id="valor" placeholder="Valor">
+        <input type="file" accept="image/*" name="picture-input" id="picture__input">
+        <span id="picture__input"></span>
+        <label for="picture__input" id="picture" tabindex="0">
+            <span id="picture__image"></span>
+        </label>
         <input type="submit" id="send" value="enviar">
     </body>
     </html>
