@@ -1,5 +1,5 @@
 const btn = document.querySelector('#send');
-
+let lista = []; 
 btn.addEventListener("click", function(e){
     e.preventDefault();
 
@@ -12,8 +12,14 @@ btn.addEventListener("click", function(e){
         desc : desc.value,
         valor : valor.value
     }
-    console.log(value);
+  
+    console.log(value); 
+    lista.push(value);//Adiciona o valor inserido pelo usuario em uma lista, para que quando inserir um novo o antigo nao ser perdido. 
 })
+
+
+console.log(lista);
+
 
 const inputFile = document.querySelector('#picture__input');
 const pictureImage = document.querySelector('#picture__image');
