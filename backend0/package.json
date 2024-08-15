@@ -1,0 +1,14 @@
+{
+  "name": "cuzim",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "a",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
